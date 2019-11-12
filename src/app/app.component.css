@@ -1,0 +1,98 @@
+#navbar{
+    height: 56px;
+    width: 100%;
+    box-shadow: 1.5px 1.5px 1.5px rgb(240, 238, 238);
+}
+
+#navbar-itens{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.navbar-item{
+    display: inline;
+    position: relative;
+    margin-right: 15px;
+    color: rgb(159, 156, 156);
+    font-family: fira-sans;
+    font-size: 14px;
+}
+
+#search{
+    border: solid 1px rgb(238, 237, 237);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 300px;
+    border-radius: 15px;
+    height: 23px;
+}
+
+.card{
+    height: 200px;
+    width: 170px;
+    box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
+    display: inline-flex;
+    border-radius: 6px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 3px 3px rgb(224, 224, 224);
+}
+
+#card-list{
+    width: 1000px;
+    float: right;
+    position: absolute;
+}
+
+.btn-primary{
+    height: 30px;
+    width: 70px;
+    background-color: rgb(74, 74, 233);
+    border-radius: 12px;
+    position: absolute;
+    border: none;
+    color: white;
+    margin-top: 180px;
+    margin-left: 200px;
+    
+}
+
+.btn-primary:hover{
+    background-color: rgb(124, 124, 250);
+}
+
+#opcoes{
+    float: left;
+    position: absloute;
+    height: 500px;
+    width: 20%;
+    border: solid 1px rgb(240, 238, 238);
+    border-left: none;
+}
+
+.img-game{
+    width: 130px;
+    height: 130px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.preco{
+    font-family: amble;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 60px;
+}
+
+#container{
+    height: 500px;
+    width: 700px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 5px;
+}
