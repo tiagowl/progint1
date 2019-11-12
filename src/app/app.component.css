@@ -1,5 +1,5 @@
 #navbar{
-    height: 56px;
+    height: 50px;
     width: 100%;
     box-shadow: 1.5px 1.5px 1.5px rgb(240, 238, 238);
 }
@@ -56,9 +56,8 @@
     position: absolute;
     border: none;
     color: white;
-    margin-top: 180px;
-    margin-left: 200px;
-    
+    margin-top: 154px;
+    margin-left: 80px;
 }
 
 .btn-primary:hover{
