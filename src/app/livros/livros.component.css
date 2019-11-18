@@ -1,6 +1,6 @@
 .card{
-  height: 250px;
-  width: 200px;
+  height: 300px;
+  width: 250px;
   box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
   display: inline-flex;
   border-radius: 6px;
@@ -19,6 +19,12 @@
   position: absolute;
 }
 
+.img-livro{
+  width: 150px;
+  height: 150px;
+  margin-left: 40px;
+}
+
 .btn-primary{
   height: 20px;
   width: 60px;
@@ -27,13 +33,22 @@
   position: absolute;
   border: none;
   color: white;
-  margin-top: 154px;
   margin-left: 80px;
   font-family: akrobat;
   font-size: 15px;
-  margin-top: 190px;
+  margin-top: 240px;
   padding: 10px;
 }
+
+.nome-livro{
+  margin-top: 170px;
+  position: absolute;
+  margin-left: 60px;
+  font-size: 18px;
+  font-family: mozer;
+  color: rgb(159, 156, 156);
+}
+
 
 .btn-primary:hover{
   background-color: rgb(124, 124, 250);
@@ -49,8 +64,9 @@
 .preco{
   font-family: amble;
   position: absolute;
-  margin-top: 180px;
+  margin-top: 207px;
   margin-left: 60px;
+  color: rgb(74, 73, 73);
 }
 
 

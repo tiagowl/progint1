@@ -22,10 +22,20 @@
   height: 29px;
 }
 
+#logo{
+  position: absolute;
+  float: left;
+  margin-left: 30px;
+  margin-top: 6px;
+  height: 45px;
+}
+
 #navbar-itens{
     margin-top: 20px;
     position: absolute;
-    margin-left: 30px;
+    margin-left: 160px;
+    float: right;
+    position: absolute;
 }
 
 @font-face{
@@ -98,6 +108,10 @@
     font-family: mozer;
 }
 
+.navbar-item:hover{
+  color: gray;
+}
+
 #search{
     border: solid 1px rgb(238, 237, 237);
     position: absolute;
@@ -142,4 +156,8 @@
   font-family: mozer;
   color: rgb(159, 156, 156);
   margin-bottom: 6px;
+}
+
+.opcao-item:hover{
+  color: gray;
 }
