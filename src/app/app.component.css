@@ -85,9 +85,18 @@ body{
 
 #container{
     height: auto;
-    width: 1000px;
+    width: 800px;
     float: right;
     margin-top: 20px;
-    margin-right: 160px;
+    margin-right: 200px;
     padding: 10px;
+}
+
+#opcoes{
+  float: left;
+  position: absloute;
+  height: 500px;
+  width: 20%;
+  border: solid 1px rgb(240, 238, 238);
+  border-left: none;
 }

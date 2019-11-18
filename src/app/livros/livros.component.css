@@ -1,6 +1,6 @@
 .card{
   height: 250px;
-  width: 240px;
+  width: 200px;
   box-shadow: 2px 2px 2px 2px rgb(241, 241, 241);
   display: inline-flex;
   border-radius: 6px;
@@ -37,15 +37,6 @@
 
 .btn-primary:hover{
   background-color: rgb(124, 124, 250);
-}
-
-#opcoes{
-  float: left;
-  position: absloute;
-  height: 500px;
-  width: 20%;
-  border: solid 1px rgb(240, 238, 238);
-  border-left: none;
 }
 
 .img-game{
