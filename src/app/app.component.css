@@ -1,12 +1,25 @@
-
-body{
-  background-color: gray;
-}
-
 #navbar{
     height: 60px;
     width: 100%;
     box-shadow: 1.5px 1.5px 1.5px rgb(240, 238, 238);
+}
+
+#logout{
+  position: absolute;
+  float: right;
+  margin-left: 1160px;
+  margin-top: 12px;
+  width: 25px;
+  height: 27px;
+}
+
+#login{
+  position: absolute;
+  float: right;
+  margin-left: 1220px;
+  margin-top: 12px;
+  width: 27px;
+  height: 29px;
 }
 
 #navbar-itens{
@@ -65,13 +78,19 @@ body{
   src: url(../assets/fonts/Squad-Regular.otf);
 }
 
+@font-face{
+  font-family: mozer;
+  src: url(../assets/fonts/Mozer/Mozer-SemiBold.otf);
+}
+
 .navbar-item{
     display: inline;
     position: relative;
     margin-right: 30px;
     color: rgb(159, 156, 156);
     font-family: squad;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: mozer;
 }
 
 #search{
@@ -97,6 +116,6 @@ body{
   position: absloute;
   height: 500px;
   width: 20%;
-  border: solid 1px rgb(240, 238, 238);
+  border: solid 1px rgb(231, 231, 231);
   border-left: none;
 }
